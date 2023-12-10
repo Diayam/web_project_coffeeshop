@@ -5,4 +5,129 @@
    font-family:"inter",Arial, sans-serif;
    font-size: 16px;
    line-height: 20px;
+   background-color: #ffff;
+   background-image: url(../images/background_header.svg)
+}  
+
+.header {
+   /* min-height: 720px;
+   max-width: 800PX;
+   height: 100vh;
+   padding: 80px 30px 40px; */
+
+}
+
+.nav {
+   display: flex;
+   justify-content: space-between;
+}
+
+.nav_logo {
+   width: 105px;
+   height: 39px;
+   position: relative;
+   padding: 30px 30px;
+   
+}
+
+.nav__links {
+  display: flex;
+  column-gap: 20px;
+  list-style: none;
+  padding: 0;
+  top: 30px;
+  right: 80px;
+ 
+}
+
+.nav__link {
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px
+}
+
+.header__title {
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 60px;
+   line-height: 72px;
+   letter-spacing: -0.6px;
+   max-width: 729px;
+   margin-top: 183px;
+}
+
+.header__title-color {
+   font-family: "Noto Serif";
+   font-style: italic;
+   font-weight: normal;
+   font-size: 60px;
+   line-height: 72px;
+   color: #2F80ED;
+}
+
+.header__description {
+   font-family: "Noto Serif";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 30px;
+   max-width: 683px;
+}
+
+.header__image {
+   position: absolute;
+   max-width: 636px;
+   max-height: 568px;
+   right: 5px;
+   top: 124px; 
+}
+
+.header__footer{
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;
+   color: #838383;
+   display: flex;
+   margin-top: 80px;
+   list-style: none;
+   align-items: flex-end;
+  
+}
+
+.header__list {
+   list-style: none;
+}
+
+.header__list-item {
+   margin-right: auto;
+}
+
+.header__paragraph {
+   margin-left: auto;
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+   z-index: 1;
+}
+
+.content {
+   background-color: #0a2750;
+   background-image: url(../images/background_recipes.svg);
+}
+
+.recipes {
+
+}
+
+.recipes__title {
+
+}
+
+.recipes__subtitle {
+
 }

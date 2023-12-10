@@ -16,14 +16,75 @@
   </head>
   <body>
       <div class="page">
-          <header class="header"></header>
+          <header class="header">
+          <nav class="nav"> 
+            <img 
+              src="./images/logo_coffeeshop_dark.svg" 
+              alt="logo cafe" 
+              class="nav__logo" 
+            />  
+              <ul class="nav__links"> 
+                <li> 
+                  <a class="nav__link" href="#recipes-link">Resetas</a> 
+                </li> 
+                <li> 
+                  <a class="nav__link" href="#reservation-link">Reserva de Mesas</a> 
+                </li> 
+                <li> 
+                  <a class="nav__link" href="#menu-link">Menú</a> 
+                </li> 
+                <li> 
+                  <a class="nav__link" href="#about-link">Contactos</a> 
+                </li> 
+              </ul> 
+          </nav>    
+              <h1 class="header__title">
+                <span class="header__title-color">Café de especialidad</span> 
+                     en la bibioteca Triple Peaks</h1> 
+                 <p class="header__description"> 
+                  !Te damos la bienvenida a nuestra zona de estudio!
+                  Aquí tenemos café para darte energía y una vibra
+                  acogedora que motivarán tu creatividad. </p> 
+                     <img src="./images/inside_coffee_shop.png" 
+                           alt="caffe inside_coffee_shop"
+                           class="header__image"/> 
+                  <div class="header__footer">
+                      <ul class="header__list"> 
+                        <li class="header__list-item">Horario:</li>
+                        <li class="header__list-item"> 
+                         Lunes a Viernes(de 10:00 a 19:00)
+                        </li>
+                        <li class="header__list-item"> 
+                          Sabado y Domingo(de 11:00 a 18:00)
+                        </li> 
+                      </ul>
+                      <p class="header__paragraph">
+                        Avenida del Éxito 200, Ciudad Triple Peaks
+                       </p> 
+                  </div>
+          </header>
           <main class="content">
-            <section class="recipes"></section>
-            <section class="reservation"></section>
-            <section class="menu"></section>
-            <section class="about"></section>
+            <section class="recipes" id="recipes__link">
+              <h2 class="recipes__title">Resetas</h2>
+              <h3 class="recipes__subtitle">
+                Echa un vistazo a algunas de nuestras recetas para que elabores tu propio café.</h3>
+            <div class="recipes__video">
+              <div class="recipes__video recipes__video-iframes">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/j6VlT_jUVPc?si=vtmz6NZn6Q3m0f7E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/st571DYYTR8?si=a5HJTeV1oKIPRttl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              
+              <p class="recipes__video-caption"
+                   Reseta en Aeropress.> s
+              </p>
+              <p class="recipes__video-caption"
+                Reseta de cafeteria francesa>
+            </p>    
+              </div>              
+            </div>    
+            </section> 
+
           </main>
-          <footer class="footer"></footer>
+            <footer</footer>
       </div>   
   </body>
 </html>
