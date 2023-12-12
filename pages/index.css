@@ -132,11 +132,11 @@
 }
 
 .recipes__title {
-   width: 80;
+   width: 80px;
    top: 100px;
    display: flex;
    align-items: start;
-   justify-content: baseline;
+  
    max-width: 580px;
    color: white;
    font-family: "Inter";
@@ -162,7 +162,7 @@
 .recipes__videos {
    margin-top: 68px;
    gap: 40px;
-   max-width: 480px 273;
+   max-width: 480px 273px;
    display: flex;
    flex-wrap: center;
    flex-direction: row;
