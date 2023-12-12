@@ -160,9 +160,8 @@
 .recipes__videos {
    margin-top: 68px;
    gap: 40px;
-   max-width: 480 273px;
+   
    display: flex;
-   flex: center;
    flex-direction: row;
    justify-content: center;
 }
