@@ -101,8 +101,7 @@
    margin-top: 80px;
    list-style: none;
    align-items: flex-end;
-  
-}
+  }
 
 .header__list {
    list-style: none;
@@ -124,10 +123,6 @@
    padding: 80px  100px;
    background-color: #0a2750;
    background-image: url(../images/background_recipes.svg); 
-}
-
-.recipes {
-  
 }
 
 .recipes__title {
