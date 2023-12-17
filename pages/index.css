@@ -11,14 +11,6 @@
    background-image: url(../images/background_header.svg)
 }  
 
-.header {
-   /* min-height: 720px;
-   max-width: 800PX;
-   height: 100vh;
-   padding: 80px 30px 40px; */
-
-}
-
 .nav {
    display: flex;
    justify-content: space-between;
@@ -234,13 +226,10 @@
    background-color: #2f80ed;
 }
 
-button:hover {
-   cursor: pointer;
-}
 .form__checkbox {
    width: 20px;
    height: 20px;
-   color: #2f80ed;
+   background-color: #2763b1;
 
 }
 
