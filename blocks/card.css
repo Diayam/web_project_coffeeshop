@@ -1,6 +1,7 @@
 .card {
+    
     width: 540px;
-    border: solid rgb(0, 255, 110);
+   
  }   
 
  .card__list {
@@ -13,7 +14,7 @@
     margin: 0;
     padding: 0;
     width: 540px;
-    border: solid red;
+  
 }
 
 .card__title {
