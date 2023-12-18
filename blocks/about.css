@@ -1,0 +1,56 @@
+@keyframes pulsate [
+    
+]
+
+.about {
+    padding: 100px 80px;
+    background-color: #0A2850 ;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    gap: 120px;
+    box-sizing: border-box;
+ }
+ 
+ .about__title {
+    margin: 0;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    z-index: 1;
+    left: 80px;
+    top:100px;
+    max-width: 251px;
+ }
+ 
+ .about__content {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    max-width: 660px;
+    margin-top: auto;
+    margin-bottom: 32px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: solid greenyellow;
+ }
+ 
+ .about__paragraph { 
+    
+    border: solid red;
+ }
+ 
+ .about__circle {
+    background-color: #2f80ed;
+    width: 426px;
+    height: 426px;
+    border-radius: 50%;
+    position: absolute;
+    top: -121px;
+    left: -91px;
+    
+ }
