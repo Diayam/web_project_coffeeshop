@@ -41,17 +41,15 @@
     font-family: "Noto Serif";
     gap: 20px;
     padding: 0px;
-    
-    flex-direction: row-reverse;
-    align-items: end;
     max-width: 660px;
-
     z-index: 2;
     border: solid greenyellow;
  }
  
  .about__paragraph { 
     margin-top: auto;
+    
+   
  }
 
  .about__circle {
