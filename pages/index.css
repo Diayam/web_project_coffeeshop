@@ -12,11 +12,11 @@
 @import url(../blocks/footer.css);
 
 
-.content {
+/*.content {
    padding: 80px 100px;
    background-color: #0a2750;
    background-image: url(../images/background_recipes.svg); 
-}
+}*/
 .fieldset {
    color: black;
    display: flex;

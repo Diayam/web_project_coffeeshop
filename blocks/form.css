@@ -35,14 +35,22 @@
     margin: 32px;
     margin-bottom: 32px;
     background-color: #2f80ed;
+    color: #ffff;
+
  }
  
+ .form__button:hover {
+   transform: scale(0.9);
+   opacity: 70%;
+ }
+
  .form__checkbox {
     width: 20px;
     height: 20px;
-    
+   
  
  }
+ 
  .form__checkbox:hover{
     background-color: #2f80ed;
  }
