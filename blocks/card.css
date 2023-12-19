@@ -3,6 +3,12 @@
     width: 540px;
    
  }   
+ .cards {
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+ } 
 
  .card__list {
     font-family: "Noto Serif"; 
