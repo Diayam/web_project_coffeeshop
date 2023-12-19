@@ -54,4 +54,8 @@
  .form__checkbox:hover{
     background-color: #2f80ed;
  }
- 
+ .form__label-text{
+   display: flex;
+   justify-content: center;
+ }
+     
