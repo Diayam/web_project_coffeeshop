@@ -30,19 +30,7 @@
    flex-direction: column;
     display: flex;
  }
- .footer__social-p {
-   font-family: "Inter";
-   font-style: normal;
-   font-weight: normal;
-   font-size: 16px;
-   line-height: 20px;
-   display: inline-grid;
-   color: white;
- }
 
- .footer__social-p {
-  color: aliceblue;
- }
 
  .footer__social-heading{
     font-family: "Inter";
@@ -81,5 +69,7 @@
     color: white;
 }
 
-
+.footer__social-link:hover {
+  color: #c1c1c1;
+}
     
