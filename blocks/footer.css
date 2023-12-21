@@ -1,14 +1,9 @@
 .footer {
     padding: 60px 100px 60px 80px;
     background:linear-gradient(180deg, #0A2850 0%,#071934 100%);
-    /*flex-direction: column;
-    display: flex;
-    gap: 60px;*/
-
 }
 
 .footer__logo {
-    /*margin-right: auto;*/
     width: 57px;
     height: 80px;
   }
@@ -45,6 +40,10 @@
    color: white;
  }
 
+ .footer__social-p {
+  color: aliceblue;
+ }
+
  .footer__social-heading{
     font-family: "Inter";
     font-style: normal;
@@ -79,8 +78,6 @@
     line-height: 20px;
     flex-direction: column;
     gap: 108px;
-    /*position: absolute;
-    bottom: -100px;*/
     color: white;
 }
 

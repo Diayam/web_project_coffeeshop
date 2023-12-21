@@ -30,3 +30,6 @@
     color: black;
  }
  
+ .nav__link:hover {
+   color:rgb(122, 122, 199);
+ }

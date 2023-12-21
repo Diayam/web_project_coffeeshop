@@ -15,7 +15,9 @@
     letter-spacing: -0.6px;
     max-width: 729px;
     margin-top: 183px;
-    
+    z-index: 1;
+    margin: 80px;
+
  }
  
  .header__title-color {
@@ -34,6 +36,9 @@
     font-size: 20px;
     line-height: 30px;
     max-width: 683px;
+    position: static;
+    margin-top: 80px;
+    margin: 80px;
  }
  
  .header__image {
@@ -43,7 +48,7 @@
     right: 5px;
     top: 124px; 
     width: 646px;
-  height: 568px;
+    height: 568px;
  }
  
  .header__footer{
@@ -54,18 +59,20 @@
     line-height: 20px;
     color: #838383;
     display: flex;
-    margin-top: 80px;
+    top: 80px;
+    margin-left: 80px;
     list-style: none;
     align-items: flex-end;
-   
  }
  
  .header__list {
     list-style: none;
+    padding: 0;
  }
  
  .header__list-item {
-    margin-right: auto;
+   margin-left: auto;
+  
  }
  
  .header__paragraph {
